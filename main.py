@@ -11,9 +11,9 @@ headers = {"Accept-Encoding": "gzip", "User-Agent": "DaniBookStats/0.1 (https://
 
 # request
 r = requests.get('https://www.googleapis.com/books/v1/volumes',
-                 params={'q': 'subject:"Romance"', 'key': API_KEY, "startIndex": "0", "maxResults": "10"},
+                 params={'q': 'inauthor:Stephen+inauthor:King', 'key': API_KEY, "startIndex": "0", "maxResults": "10"},
                  headers=headers)
 
 
-with open("bob.txt", "w") as f:
+with open("bob.json", "w") as f:
     f.write(r.text)
