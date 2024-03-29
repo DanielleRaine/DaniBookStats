@@ -1,0 +1,211 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 3,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "2ue3PwAACAAJ",
+      "etag": "WP2Jq1RYMOU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2ue3PwAACAAJ",
+      "volumeInfo": {
+        "title": "Discrete Mathematics and Its Applications",
+        "authors": [
+          "Kenneth H. Rosen"
+        ],
+        "publisher": "McGraw-Hill Science, Engineering & Mathematics",
+        "publishedDate": "2003",
+        "description": "Discrete Mathematics and its Applications is a focused introduction to the primary themes in a discrete mathematics course, as introduced through extensive applications, expansive discussion, and detailed exercise sets. These themes include mathematical reasoning, combinatorial analysis, discrete structures, algorithmic thinking, and enhanced problem-solving skills through modeling. Its intent is to demonstrate the relevance and practicality of discrete mathematics to all students. The Fifth Edition includes a more thorough and linear presentation of logic, proof types and proof writing, and mathematical reasoning. This enhanced coverage will provide students with a solid understanding of the material as it relates to their immediate field of study and other relevant subjects. The inclusion of applications and examples to key topics has been significantly addressed to add clarity to every subject. True to the Fourth Edition, the text-specific web site supplements the subject matter in meaningful ways, offering additional material for students and instructors. Discrete math is an active subject with new discoveries made every year. The continual growth and updates to the web site reflect the active nature of the topics being discussed. The book is appropriate for a one- or two-term introductory discrete mathematics course to be taken by students in a wide variety of majors, including computer science, mathematics, and engineering. College Algebra is the only explicit prerequisite.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0072424346"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780072424348"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 906,
+        "printType": "BOOK",
+        "categories": [
+          "Computer science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2ue3PwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2ue3PwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=2ue3PwAACAAJ&dq=subject:%22Mystery%22%2Binauthor:%22Kenneth+H.+Rosen%22&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=2ue3PwAACAAJ&dq=subject:%22Mystery%22%2Binauthor:%22Kenneth+H.+Rosen%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Discrete_Mathematics_and_Its_Application.html?hl=&id=2ue3PwAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2ue3PwAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "k1GdAAAACAAJ",
+      "etag": "5wc6xPWs5ac",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/k1GdAAAACAAJ",
+      "volumeInfo": {
+        "title": "Five-minute Mysteries 5 : 40 Additional Cases of Murder and Mayhem for You to Solve",
+        "authors": [
+          "K. J. (Kenneth Jerome) Weber"
+        ],
+        "publisher": "Richmond Hill, Ont. : Firefly Books",
+        "publishedDate": "2005",
+        "description": "When you have a few minutes to kill. Armchairs sleuths can test their powers of deduction with 40 of the best quick-read whodunits in this fifth volume of the popular Five-minute Mysteries series. Here's the idea. Readers take about five minutes to read a short mystery. Next, they must solve the question posed at the end by putting themselves in the shoes of the detective to examine the evidence and figure out who done it. All the clues they need are found somewhere in the story. A sampling of the mysteries to solve: A murderer describes in detail the Perfect Crime. But the plan is flawed... how? An English arrow kills a French soldier during the Hundred Years' War. Which clues point to a cold-blooded murder? What clues did the rookie cop see that went unobserved by the veteran sheriff? What exactly told investigators that the forged painting wasn't picture perfect? Cases are rated easy, moderate and challenging. Some mysteries will unravel faster than a dime-store sweater while others will take longer to solve. Solutions for all, however, are revealed at the back of the book. Five-minute Mysteries 5 is a treat for both puzzle aficionados and mystery fans, and a rare opportunity to step into the shoes of law enforcement professionals.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1552978680"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781552978689"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 189,
+        "printType": "BOOK",
+        "categories": [
+          "Detective and mystery stories, Canadian (English)"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=k1GdAAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=k1GdAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=k1GdAAAACAAJ&dq=subject:%22Mystery%22%2Binauthor:%22Kenneth+H.+Rosen%22&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=k1GdAAAACAAJ&dq=subject:%22Mystery%22%2Binauthor:%22Kenneth+H.+Rosen%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Five_minute_Mysteries_5_40_Additional_Ca.html?hl=&id=k1GdAAAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=k1GdAAAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "1W4QYAAACAAJ",
+      "etag": "cD9HLc52Uok",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1W4QYAAACAAJ",
+      "volumeInfo": {
+        "title": "Student's Solutions Guide for Discrete Mathematics and Its Applications",
+        "authors": [
+          "Jerrold W. Grossman, Professor",
+          "Kenneth H. Rosen"
+        ],
+        "publisher": "McGraw-Hill Education",
+        "publishedDate": "2011-07-26",
+        "description": "Answers to ODD numbered problems are in the back of the book. WORKED OUT SOLUTIONS for these ODD numbered problems are in the PRINTED Student's Solutions Guide (0-07-7353501). Complete SOLUTIONS for the EVEN NUMBERED PROBLEMS are available for the Instructor ONLY in the Instructor's Resource Guide link under the Instructor Resources.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0077353501"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780077353506"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Mathematics"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=1W4QYAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=1W4QYAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=1W4QYAAACAAJ&dq=subject:%22Mystery%22%2Binauthor:%22Kenneth+H.+Rosen%22&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=1W4QYAAACAAJ&dq=subject:%22Mystery%22%2Binauthor:%22Kenneth+H.+Rosen%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Student_s_Solutions_Guide_for_Discrete_M.html?hl=&id=1W4QYAAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=1W4QYAAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
