@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 import requests
 from math import ceil
+from time import sleep
 
 # load .env file that contains api key
 load_dotenv()
@@ -12,10 +13,12 @@ headers = {"Accept-Encoding": "gzip",
            "User-Agent": "DaniBookStats/0.1 (https://github.com/DanielleHassanieh/DaniBookStats)"}
 # list of genres to get data from
 genres = ["Horror", "Mystery"]
-#genres = ["Romance", "Mystery", "Fantasy", "Science Fiction", ""]
 
 
-def get_num_books_subject(subject):
+# genres = ["Romance", "Mystery", "Fantasy", "Science Fiction", ""]
+
+
+def get_subject_num_books(subject):
     return requests.get('https://www.googleapis.com/books/v1/volumes',
                         params={'q': f'subject:"{subject}"',
                                 'key': API_KEY,
@@ -24,34 +27,36 @@ def get_num_books_subject(subject):
                         headers=headers).json()["totalItems"]
 
 
-# "startIndex": "0", "maxResults": "1"
 r = requests.get('https://www.googleapis.com/books/v1/volumes',
-                 params={'q': 'subject:"Mystery"+inauthor:"Kenneth H. Rosen"', 'key': API_KEY},
+                 params={'q': f'subject:"Mystery"',
+                         'key': API_KEY,
+                         'fields': 'items(id,volumeInfo(title,authors,publishedDate,pageCount,categories,averageRating,ratingsCount))',
+                         'startIndex': 0,
+                         'maxResults': 40},
                  headers=headers)
 
-print(40)
+# for g in genres:
+#
+#     num_queries = ceil(get_subject_num_books(g) / 40)
+#
+#     for i in range(num_queries):
+#         r = requests.get('https://www.googleapis.com/books/v1/volumes',
+#                          params={'q': f'subject:"{g}"',
+#                                  'key': API_KEY,
+#                                  'fields': 'items(id,volumeInfo(title,authors,publishedDate,pageCount,categories,averageRating,ratingsCount))',
+#                                  'startIndex': i * 40,
+#                                  'maxResults': 40},
+#                          headers=headers)
+#         # if not r.ok:
+#         #     continue
+#
 
-for g in genres:
 
-    num_queries = ceil(get_num_books_subject(g) / 40)
+# d = dict(r.json())
 
-    for i in range(num_queries):
-         r = requests.get('https://www.googleapis.com/books/v1/volumes', params={'q': 'subject:"Mystery"+inauthor:"Kenneth H. Rosen"', 'key': API_KEY}, headers=headers)
+# d.update()
 
-
-    if r.ok:
-        pass
-
-   # pass
-
-
-#r = requests.get("https://www.google.com/search?q=subject:%22Fiction%22&sca_esv=09842260a7ca25e4&sca_upv=1&tbm=bks&sxsrf=ACQVn08DDS_c0GBQ_837Xe0dRnh0c-Qmtw:1711732756530&ei=FPgGZuuFIJbKkPIPsqO52A8&start=0&sa=N&ved=2ahUKEwjr35y3_ZmFAxUWJUQIHbJRDvs4WhDy0wN6BAgPEAQ&biw=1920&bih=932&dpr=1", params={'key': API_KEY}, headers=headers)
-
-#d = dict(r.json())
-
-#d.update()
-
-#print(get_num_books_subject("Fiction"))
+# print(get_num_books_subject("Fiction"))
 
 with open("bob.json", "w") as f:
     f.write(r.text)

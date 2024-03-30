@@ -1,210 +1,598 @@
 {
-  "kind": "books#volumes",
-  "totalItems": 3,
   "items": [
     {
-      "kind": "books#volume",
-      "id": "2ue3PwAACAAJ",
-      "etag": "WP2Jq1RYMOU",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/2ue3PwAACAAJ",
+      "id": "OHqsQwFrKO0C",
       "volumeInfo": {
-        "title": "Discrete Mathematics and Its Applications",
+        "title": "Loves Music, Loves to Dance",
         "authors": [
-          "Kenneth H. Rosen"
+          "Mary Higgins Clark"
         ],
-        "publisher": "McGraw-Hill Science, Engineering & Mathematics",
-        "publishedDate": "2003",
-        "description": "Discrete Mathematics and its Applications is a focused introduction to the primary themes in a discrete mathematics course, as introduced through extensive applications, expansive discussion, and detailed exercise sets. These themes include mathematical reasoning, combinatorial analysis, discrete structures, algorithmic thinking, and enhanced problem-solving skills through modeling. Its intent is to demonstrate the relevance and practicality of discrete mathematics to all students. The Fifth Edition includes a more thorough and linear presentation of logic, proof types and proof writing, and mathematical reasoning. This enhanced coverage will provide students with a solid understanding of the material as it relates to their immediate field of study and other relevant subjects. The inclusion of applications and examples to key topics has been significantly addressed to add clarity to every subject. True to the Fourth Edition, the text-specific web site supplements the subject matter in meaningful ways, offering additional material for students and instructors. Discrete math is an active subject with new discoveries made every year. The continual growth and updates to the web site reflect the active nature of the topics being discussed. The book is appropriate for a one- or two-term introductory discrete mathematics course to be taken by students in a wide variety of majors, including computer science, mathematics, and engineering. College Algebra is the only explicit prerequisite.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "0072424346"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9780072424348"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 906,
-        "printType": "BOOK",
+        "publishedDate": "1992-03",
+        "pageCount": 339,
         "categories": [
-          "Computer science"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=2ue3PwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=2ue3PwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=2ue3PwAACAAJ&dq=subject:%22Mystery%22%2Binauthor:%22Kenneth+H.+Rosen%22&hl=&cd=1&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=2ue3PwAACAAJ&dq=subject:%22Mystery%22%2Binauthor:%22Kenneth+H.+Rosen%22&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Discrete_Mathematics_and_Its_Application.html?hl=&id=2ue3PwAACAAJ"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=2ue3PwAACAAJ&hl=&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "k1GdAAAACAAJ",
-      "etag": "5wc6xPWs5ac",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/k1GdAAAACAAJ",
-      "volumeInfo": {
-        "title": "Five-minute Mysteries 5 : 40 Additional Cases of Murder and Mayhem for You to Solve",
-        "authors": [
-          "K. J. (Kenneth Jerome) Weber"
-        ],
-        "publisher": "Richmond Hill, Ont. : Firefly Books",
-        "publishedDate": "2005",
-        "description": "When you have a few minutes to kill. Armchairs sleuths can test their powers of deduction with 40 of the best quick-read whodunits in this fifth volume of the popular Five-minute Mysteries series. Here's the idea. Readers take about five minutes to read a short mystery. Next, they must solve the question posed at the end by putting themselves in the shoes of the detective to examine the evidence and figure out who done it. All the clues they need are found somewhere in the story. A sampling of the mysteries to solve: A murderer describes in detail the Perfect Crime. But the plan is flawed... how? An English arrow kills a French soldier during the Hundred Years' War. Which clues point to a cold-blooded murder? What clues did the rookie cop see that went unobserved by the veteran sheriff? What exactly told investigators that the forged painting wasn't picture perfect? Cases are rated easy, moderate and challenging. Some mysteries will unravel faster than a dime-store sweater while others will take longer to solve. Solutions for all, however, are revealed at the back of the book. Five-minute Mysteries 5 is a treat for both puzzle aficionados and mystery fans, and a rare opportunity to step into the shoes of law enforcement professionals.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "1552978680"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9781552978689"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 189,
-        "printType": "BOOK",
-        "categories": [
-          "Detective and mystery stories, Canadian (English)"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=k1GdAAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=k1GdAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=k1GdAAAACAAJ&dq=subject:%22Mystery%22%2Binauthor:%22Kenneth+H.+Rosen%22&hl=&cd=2&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=k1GdAAAACAAJ&dq=subject:%22Mystery%22%2Binauthor:%22Kenneth+H.+Rosen%22&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Five_minute_Mysteries_5_40_Additional_Ca.html?hl=&id=k1GdAAAACAAJ"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=k1GdAAAACAAJ&hl=&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "1W4QYAAACAAJ",
-      "etag": "cD9HLc52Uok",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/1W4QYAAACAAJ",
-      "volumeInfo": {
-        "title": "Student's Solutions Guide for Discrete Mathematics and Its Applications",
-        "authors": [
-          "Jerrold W. Grossman, Professor",
-          "Kenneth H. Rosen"
-        ],
-        "publisher": "McGraw-Hill Education",
-        "publishedDate": "2011-07-26",
-        "description": "Answers to ODD numbered problems are in the back of the book. WORKED OUT SOLUTIONS for these ODD numbered problems are in the PRINTED Student's Solutions Guide (0-07-7353501). Complete SOLUTIONS for the EVEN NUMBERED PROBLEMS are available for the Instructor ONLY in the Instructor's Resource Guide link under the Instructor Resources.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "0077353501"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9780077353506"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 0,
-        "printType": "BOOK",
-        "categories": [
-          "Mathematics"
+          "Fiction"
         ],
         "averageRating": 5,
-        "ratingsCount": 1,
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=1W4QYAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=1W4QYAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=1W4QYAAACAAJ&dq=subject:%22Mystery%22%2Binauthor:%22Kenneth+H.+Rosen%22&hl=&cd=3&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=1W4QYAAACAAJ&dq=subject:%22Mystery%22%2Binauthor:%22Kenneth+H.+Rosen%22&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Student_s_Solutions_Guide_for_Discrete_M.html?hl=&id=1W4QYAAACAAJ"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=1W4QYAAACAAJ&hl=&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
+        "ratingsCount": 1
+      }
+    },
+    {
+      "id": "bIZiAAAAMAAJ",
+      "volumeInfo": {
+        "title": "A Game of Thrones",
+        "authors": [
+          "George R. R. Martin"
+        ],
+        "publishedDate": "2011",
+        "pageCount": 876,
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 130
+      }
+    },
+    {
+      "id": "gGWvDUUi58cC",
+      "volumeInfo": {
+        "title": "Tuesday",
+        "authors": [
+          "David Wiesner"
+        ],
+        "publishedDate": "1991",
+        "pageCount": 36,
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 3,
+        "ratingsCount": 6
+      }
+    },
+    {
+      "id": "ACMYLqk_7GoC",
+      "volumeInfo": {
+        "title": "And Then There Were None",
+        "authors": [
+          "Agatha Christie"
+        ],
+        "publishedDate": "2001-05-13",
+        "pageCount": 294,
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 41
+      }
+    },
+    {
+      "id": "KmBnH5U_GgoC",
+      "volumeInfo": {
+        "title": "Fractured",
+        "authors": [
+          "Karin Slaughter"
+        ],
+        "publishedDate": "2009-06-23",
+        "pageCount": 530,
+        "categories": [
+          "Abused wives"
+        ]
+      }
+    },
+    {
+      "id": "4qVGAFRByvIC",
+      "volumeInfo": {
+        "title": "A Time to Kill",
+        "authors": [
+          "John Grisham"
+        ],
+        "publishedDate": "1992",
+        "pageCount": 530,
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 3
+      }
+    },
+    {
+      "id": "x9BlAAAAMAAJ",
+      "volumeInfo": {
+        "title": "The Colorado Kid",
+        "authors": [
+          "Stephen King"
+        ],
+        "publishedDate": "2005",
+        "pageCount": 204,
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3,
+        "ratingsCount": 8
+      }
+    },
+    {
+      "id": "gP3UiUyOTugC",
+      "volumeInfo": {
+        "title": "The Road to Gandolfo",
+        "authors": [
+          "Robert Ludlum"
+        ],
+        "publishedDate": "1992",
+        "pageCount": 322,
+        "categories": [
+          "Adventure stories"
+        ]
+      }
+    },
+    {
+      "id": "jk0rAQAAIAAJ",
+      "volumeInfo": {
+        "title": "Mean Spirit",
+        "authors": [
+          "Linda Hogan"
+        ],
+        "publishedDate": "1992",
+        "pageCount": 398,
+        "categories": [
+          "Fiction"
+        ]
+      }
+    },
+    {
+      "id": "ICczBrCNqC0C",
+      "volumeInfo": {
+        "title": "Plum Lovin'",
+        "authors": [
+          "Janet Evanovich"
+        ],
+        "publishedDate": "2008-01-08",
+        "pageCount": 292,
+        "categories": [
+          "Fiction"
+        ]
+      }
+    },
+    {
+      "id": "35SA8u4QpacC",
+      "volumeInfo": {
+        "title": "The Runaway Jury",
+        "authors": [
+          "John Grisham"
+        ],
+        "publishedDate": "1997",
+        "pageCount": 561,
+        "categories": [
+          "Biloxi (Miss.)"
+        ]
+      }
+    },
+    {
+      "id": "IuGHDQAAQBAJ",
+      "volumeInfo": {
+        "title": "Turbo Twenty-three",
+        "authors": [
+          "Janet Evanovich"
+        ],
+        "publishedDate": "2016",
+        "pageCount": 305,
+        "categories": [
+          "Fiction"
+        ]
+      }
+    },
+    {
+      "id": "mFjPpjWO4dUC",
+      "volumeInfo": {
+        "title": "Still Life",
+        "authors": [
+          "Louise Penny"
+        ],
+        "publishedDate": "2007-05",
+        "pageCount": 322,
+        "categories": [
+          "Fiction"
+        ]
+      }
+    },
+    {
+      "id": "UEAfl4Qwb1AC",
+      "volumeInfo": {
+        "title": "A Purple Place for Dying",
+        "authors": [
+          "John Dann MacDonald"
+        ],
+        "publishedDate": "1995",
+        "pageCount": 241,
+        "categories": [
+          "Detective and mystery stories"
+        ]
+      }
+    },
+    {
+      "id": "ujXZe244b48C",
+      "volumeInfo": {
+        "title": "Where are the Children?",
+        "authors": [
+          "Mary Higgins Clark"
+        ],
+        "publishedDate": "1992",
+        "pageCount": 232,
+        "categories": [
+          "FICTION"
+        ]
+      }
+    },
+    {
+      "id": "kjb1P1fJnfcC",
+      "volumeInfo": {
+        "title": "4.50 from Paddington",
+        "authors": [
+          "Agatha Christie"
+        ],
+        "publishedDate": "1987",
+        "pageCount": 228,
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 8
+      }
+    },
+    {
+      "id": "dXccl8vD4LoC",
+      "volumeInfo": {
+        "title": "The Narrows",
+        "authors": [
+          "Michael Connelly"
+        ],
+        "publishedDate": "2005-03",
+        "pageCount": 462,
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 7
+      }
+    },
+    {
+      "id": "J8k2csBT-80C",
+      "volumeInfo": {
+        "title": "A Case of Need",
+        "authors": [
+          "Michael Crichton",
+          "Jeffrey Hudson"
+        ],
+        "publishedDate": "1969",
+        "pageCount": 420,
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 9
+      }
+    },
+    {
+      "id": "OwzXHyR1W-AC",
+      "volumeInfo": {
+        "title": "Crime and Punishment",
+        "authors": [
+          "Fyodor Dostoyevsky"
+        ],
+        "publishedDate": "1953",
+        "pageCount": 428,
+        "categories": [
+          "Murder"
+        ]
+      }
+    },
+    {
+      "id": "s5ulrjc71nIC",
+      "volumeInfo": {
+        "title": "The Surgeon",
+        "authors": [
+          "Tess Gerritsen"
+        ],
+        "publishedDate": "2001",
+        "pageCount": 530,
+        "categories": [
+          "Fiction"
+        ]
+      }
+    },
+    {
+      "id": "R6snAQAAMAAJ",
+      "volumeInfo": {
+        "title": "Murder on the Orient Express",
+        "authors": [
+          "Agatha Christie"
+        ],
+        "publishedDate": "1968",
+        "pageCount": 264,
+        "categories": [
+          "Detective and mystery stories"
+        ]
+      }
+    },
+    {
+      "id": "b8lyy_gQZTkC",
+      "volumeInfo": {
+        "title": "Every Dead Thing",
+        "authors": [
+          "John Connolly"
+        ],
+        "publishedDate": "2009-01-27",
+        "pageCount": 484,
+        "categories": [
+          "Fiction"
+        ]
+      }
+    },
+    {
+      "id": "SCHqme8AluYC",
+      "volumeInfo": {
+        "title": "The Invisible Man",
+        "authors": [
+          "Len Jenkin",
+          "Herbert George Wells"
+        ],
+        "publishedDate": "2000",
+        "pageCount": 78,
+        "categories": [
+          "Drama"
+        ]
+      }
+    },
+    {
+      "id": "T8i2CYntp6UC",
+      "volumeInfo": {
+        "title": "Two for the Dough",
+        "authors": [
+          "Janet Evanovich"
+        ],
+        "publishedDate": "1996",
+        "pageCount": 342,
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 4
+      }
+    },
+    {
+      "id": "av8SBXdrG7YC",
+      "volumeInfo": {
+        "title": "Hannibal",
+        "authors": [
+          "Thomas Harris"
+        ],
+        "publishedDate": "2000",
+        "pageCount": 580,
+        "categories": [
+          "Dangerously mentally ill"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 2
+      }
+    },
+    {
+      "id": "KProIPug-OsC",
+      "volumeInfo": {
+        "title": "Ricochet",
+        "authors": [
+          "Sandra Brown"
+        ],
+        "publishedDate": "2006",
+        "pageCount": 401,
+        "categories": [
+          "Authors, American"
+        ]
+      }
+    },
+    {
+      "id": "HuWP4w41tOEC",
+      "volumeInfo": {
+        "title": "Brother Odd",
+        "authors": [
+          "Dean Ray Koontz"
+        ],
+        "publishedDate": "2007",
+        "pageCount": 466,
+        "categories": [
+          "Abandoned children"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 4
+      }
+    },
+    {
+      "id": "FUe7l6FoiVIC",
+      "volumeInfo": {
+        "title": "Muscle Memory",
+        "authors": [
+          "William G. Tapply"
+        ],
+        "publishedDate": "2003-04-14",
+        "pageCount": 308,
+        "categories": [
+          "Fiction"
+        ]
+      }
+    },
+    {
+      "id": "q_Bb4SnE2i0C",
+      "volumeInfo": {
+        "title": "The Sherwood Ring",
+        "authors": [
+          "Elizabeth Marie Pope"
+        ],
+        "publishedDate": "2001",
+        "pageCount": 276,
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1
+      }
+    },
+    {
+      "id": "9iXsIAND7KQC",
+      "volumeInfo": {
+        "title": "The House at Riverton",
+        "authors": [
+          "Kate Morton"
+        ],
+        "publishedDate": "2009-03-03",
+        "pageCount": 496,
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3,
+        "ratingsCount": 1
+      }
+    },
+    {
+      "id": "5XDdP-5YxUsC",
+      "volumeInfo": {
+        "title": "Nine Nights",
+        "authors": [
+          "Bernardo Carvalho"
+        ],
+        "publishedDate": "2008",
+        "pageCount": 226,
+        "categories": [
+          "Americans"
+        ]
+      }
+    },
+    {
+      "id": "FoyhSrj6RFsC",
+      "volumeInfo": {
+        "title": "The Revenge of the Wizard's Ghost",
+        "authors": [
+          "John Bellairs"
+        ],
+        "publishedDate": "1997",
+        "pageCount": 164,
+        "categories": [
+          "Ghosts"
+        ]
+      }
+    },
+    {
+      "id": "IYZRU3i0m-QC",
+      "volumeInfo": {
+        "title": "The Rule of Four",
+        "authors": [
+          "Ian Caldwell",
+          "Dustin Thomason"
+        ],
+        "publishedDate": "2005",
+        "pageCount": 626,
+        "categories": [
+          "Fiction"
+        ]
+      }
+    },
+    {
+      "id": "SPSn4HdxigkC",
+      "volumeInfo": {
+        "title": "The Redbreast",
+        "authors": [
+          "Jo Nesbo"
+        ],
+        "publishedDate": "2006",
+        "pageCount": 532,
+        "categories": [
+          "Fiction"
+        ]
+      }
+    },
+    {
+      "id": "vwt6of7puqwC",
+      "volumeInfo": {
+        "title": "Riverboat Ruse",
+        "authors": [
+          "Carolyn Keene"
+        ],
+        "publishedDate": "2005-05",
+        "pageCount": 166,
+        "categories": [
+          "Juvenile Fiction"
+        ]
+      }
+    },
+    {
+      "id": "fVXhWW7ZRkwC",
+      "volumeInfo": {
+        "title": "Contest",
+        "authors": [
+          "Matthew Reilly"
+        ],
+        "publishedDate": "2005-12-27",
+        "pageCount": 452,
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 3
+      }
+    },
+    {
+      "id": "pw4JuAEACAAJ",
+      "volumeInfo": {
+        "title": "Crime and Punishment",
+        "authors": [
+          "Fedor Mikhailovich Dostoevskii"
+        ],
+        "publishedDate": "1968",
+        "pageCount": 434,
+        "categories": [
+          "Murder"
+        ]
+      }
+    },
+    {
+      "id": "Yg4mDwAAQBAJ",
+      "volumeInfo": {
+        "title": "True Evil",
+        "authors": [
+          "Greg Iles"
+        ],
+        "publishedDate": "2007-09-25",
+        "pageCount": 672,
+        "categories": [
+          "Fiction"
+        ]
+      }
+    },
+    {
+      "id": "jwDVVUxz7L4C",
+      "volumeInfo": {
+        "title": "Well-schooled in Murder",
+        "authors": [
+          "Elizabeth George"
+        ],
+        "publishedDate": "1991",
+        "pageCount": 442,
+        "categories": [
+          "Detective and mystery stories"
+        ]
+      }
+    },
+    {
+      "id": "Mt90K-0Jty4C",
+      "volumeInfo": {
+        "title": "To the Nines",
+        "authors": [
+          "Janet Evanovich"
+        ],
+        "publishedDate": "2004-06-14",
+        "pageCount": 360,
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 16
       }
     }
   ]
