@@ -15,12 +15,13 @@ headers = {'Accept-Encoding': 'gzip',
 genres = ['Horror', 'Mystery']
 
 # create connection to database
-mariadb_connection = mariadb.connect(user=os.getenv('MARIADB_USER'),
-                                     password=os.getenv('MARIADB_PASSWORD'),
-                                     host=os.getenv('MARIADB_HOST'),
-                                     port=os.getenv('MARIADB_PORT'))
+db_conn = mariadb.connect(user=os.getenv('MARIADB_USER'),
+                          password=os.getenv('MARIADB_PASSWORD'),
+                          host=os.getenv('MARIADB_HOST'),
+                          port=os.getenv('MARIADB_PORT'),
+                          database=os.getenv('MARIADB_DATABASE'))
 
-mariadb_cursor = mariadb_connection.cursor()
+mariadb_cursor = db_conn.cursor()
 
 mariadb_cursor.execute("SHOW DATABASES")
 
