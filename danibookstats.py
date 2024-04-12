@@ -13,9 +13,9 @@ API_KEY = os.getenv('GOOGLE_BOOKS_API_KEY')
 # enable gzip compression and state user agent for api
 headers = {'Accept-Encoding': 'gzip',
            'User-Agent': 'DaniBookStats/0.1 (https://github.com/DanielleHassanieh/DaniBookStats)'}
+
 # list of genres to get data from
-genres = ['Horror', 'Mystery']
-# genres = ["Romance", "Mystery", "Fantasy", "Science Fiction", ""]
+genres = ['Horror', 'Mystery', 'Fantasy', 'Science Fiction', 'Biography', 'Language', 'Math', 'Science']
 
 # create connection to database
 connection = mariadb.connect(user=os.getenv('DB_USER'),
