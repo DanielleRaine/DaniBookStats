@@ -8,7 +8,6 @@ import requests
 from math import ceil
 import mariadb
 from datetime import datetime
-import decimal
 
 
 # get google books api key from environment variables
