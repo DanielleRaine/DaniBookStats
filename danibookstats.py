@@ -8,6 +8,7 @@ import requests
 from math import ceil
 import mariadb
 from datetime import datetime
+import decimal
 
 
 # get google books api key from environment variables
@@ -49,7 +50,7 @@ with open('table_names.txt', 'a') as f:
     f.write(f'{table_name}\n')
 
 # create table if it doesn't exist
-cursor.execute(f'CREATE TABLE IF NOT EXISTS {table_name}(id CHAR(12) unique, title CHAR(255), authors CHAR(255), publisher CHAR(64), publishedDate DATE, pageCount INT, averageRating DECIMAL(1,1), ratingsCount INT, genre CHAR(32))')
+cursor.execute(f'CREATE TABLE IF NOT EXISTS {table_name}(id CHAR(12) unique, title CHAR(255), authors CHAR(255), publisher CHAR(64), publishedDate DATE, pageCount INT, averageRating DECIMAL(2,1), ratingsCount INT, genre CHAR(32))')
 
 # loop through genres and get books
 for g in genres:
@@ -79,11 +80,9 @@ for g in genres:
                           b['volumeInfo']['publisher'] if 'publisher' in b['volumeInfo'] else 'Unknown',
                           b['volumeInfo']['publishedDate'] if 'publishedDate' in b['volumeInfo'] else 'Unknown',
                           b['volumeInfo']['pageCount'] if 'pageCount' in b['volumeInfo'] else 0,
-                          b['volumeInfo']['averageRating'] if 'averageRating' in b['volumeInfo'] else 0,
+                          float(b['volumeInfo']['averageRating'] if 'averageRating' in b['volumeInfo'] else 0),
                           b['volumeInfo']['ratingsCount'] if 'ratingsCount' in b['volumeInfo'] else 0,
                           g))
-    
-    print(books)
 
     # insert books into database
     # use IGNORE to prevent duplicate entries
