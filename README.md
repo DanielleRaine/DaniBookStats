@@ -1,2 +1,2 @@
 # DaniBookStats
-Project for the Out In Tech Samsung mentorship program!! Designed for me to start learning how to use Python, SQL, and R in one fell swoop!
+Project for the Out In Tech Samsung Spring 2024 mentorship program!! Functions as an intro to SQL and R.

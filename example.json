@@ -1,598 +1,728 @@
 {
+  "kind": "books#volumes",
+  "totalItems": 186,
   "items": [
     {
-      "id": "OHqsQwFrKO0C",
+      "kind": "books#volume",
+      "id": "w7FfrQxhnxEC",
+      "etag": "+lK/K2QsQrI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/w7FfrQxhnxEC",
       "volumeInfo": {
-        "title": "Loves Music, Loves to Dance",
+        "title": "Fablehaven",
         "authors": [
-          "Mary Higgins Clark"
+          "Brandon Mull"
         ],
-        "publishedDate": "1992-03",
-        "pageCount": 339,
-        "categories": [
-          "Fiction"
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2007-04-24",
+        "description": "When Kendra and Seth go to stay at their grandparents' estate, they discover that it is a sanctuary for magical creatures and that a battle between good and evil is looming.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781416947202"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1416947205"
+          }
         ],
-        "averageRating": 5,
-        "ratingsCount": 1
-      }
-    },
-    {
-      "id": "bIZiAAAAMAAJ",
-      "volumeInfo": {
-        "title": "A Game of Thrones",
-        "authors": [
-          "George R. R. Martin"
-        ],
-        "publishedDate": "2011",
-        "pageCount": 876,
-        "categories": [
-          "Fiction"
-        ],
-        "averageRating": 4.5,
-        "ratingsCount": 130
-      }
-    },
-    {
-      "id": "gGWvDUUi58cC",
-      "volumeInfo": {
-        "title": "Tuesday",
-        "authors": [
-          "David Wiesner"
-        ],
-        "publishedDate": "1991",
-        "pageCount": 36,
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 384,
+        "printType": "BOOK",
         "categories": [
           "Juvenile Fiction"
         ],
-        "averageRating": 3,
-        "ratingsCount": 6
-      }
-    },
-    {
-      "id": "ACMYLqk_7GoC",
-      "volumeInfo": {
-        "title": "And Then There Were None",
-        "authors": [
-          "Agatha Christie"
-        ],
-        "publishedDate": "2001-05-13",
-        "pageCount": 294,
-        "categories": [
-          "Fiction"
-        ],
-        "averageRating": 4,
-        "ratingsCount": 41
-      }
-    },
-    {
-      "id": "KmBnH5U_GgoC",
-      "volumeInfo": {
-        "title": "Fractured",
-        "authors": [
-          "Karin Slaughter"
-        ],
-        "publishedDate": "2009-06-23",
-        "pageCount": 530,
-        "categories": [
-          "Abused wives"
-        ]
-      }
-    },
-    {
-      "id": "4qVGAFRByvIC",
-      "volumeInfo": {
-        "title": "A Time to Kill",
-        "authors": [
-          "John Grisham"
-        ],
-        "publishedDate": "1992",
-        "pageCount": 530,
-        "categories": [
-          "Fiction"
-        ],
-        "averageRating": 3.5,
-        "ratingsCount": 3
-      }
-    },
-    {
-      "id": "x9BlAAAAMAAJ",
-      "volumeInfo": {
-        "title": "The Colorado Kid",
-        "authors": [
-          "Stephen King"
-        ],
-        "publishedDate": "2005",
-        "pageCount": 204,
-        "categories": [
-          "Fiction"
-        ],
-        "averageRating": 3,
-        "ratingsCount": 8
-      }
-    },
-    {
-      "id": "gP3UiUyOTugC",
-      "volumeInfo": {
-        "title": "The Road to Gandolfo",
-        "authors": [
-          "Robert Ludlum"
-        ],
-        "publishedDate": "1992",
-        "pageCount": 322,
-        "categories": [
-          "Adventure stories"
-        ]
-      }
-    },
-    {
-      "id": "jk0rAQAAIAAJ",
-      "volumeInfo": {
-        "title": "Mean Spirit",
-        "authors": [
-          "Linda Hogan"
-        ],
-        "publishedDate": "1992",
-        "pageCount": 398,
-        "categories": [
-          "Fiction"
-        ]
-      }
-    },
-    {
-      "id": "ICczBrCNqC0C",
-      "volumeInfo": {
-        "title": "Plum Lovin'",
-        "authors": [
-          "Janet Evanovich"
-        ],
-        "publishedDate": "2008-01-08",
-        "pageCount": 292,
-        "categories": [
-          "Fiction"
-        ]
-      }
-    },
-    {
-      "id": "35SA8u4QpacC",
-      "volumeInfo": {
-        "title": "The Runaway Jury",
-        "authors": [
-          "John Grisham"
-        ],
-        "publishedDate": "1997",
-        "pageCount": 561,
-        "categories": [
-          "Biloxi (Miss.)"
-        ]
-      }
-    },
-    {
-      "id": "IuGHDQAAQBAJ",
-      "volumeInfo": {
-        "title": "Turbo Twenty-three",
-        "authors": [
-          "Janet Evanovich"
-        ],
-        "publishedDate": "2016",
-        "pageCount": 305,
-        "categories": [
-          "Fiction"
-        ]
-      }
-    },
-    {
-      "id": "mFjPpjWO4dUC",
-      "volumeInfo": {
-        "title": "Still Life",
-        "authors": [
-          "Louise Penny"
-        ],
-        "publishedDate": "2007-05",
-        "pageCount": 322,
-        "categories": [
-          "Fiction"
-        ]
-      }
-    },
-    {
-      "id": "UEAfl4Qwb1AC",
-      "volumeInfo": {
-        "title": "A Purple Place for Dying",
-        "authors": [
-          "John Dann MacDonald"
-        ],
-        "publishedDate": "1995",
-        "pageCount": 241,
-        "categories": [
-          "Detective and mystery stories"
-        ]
-      }
-    },
-    {
-      "id": "ujXZe244b48C",
-      "volumeInfo": {
-        "title": "Where are the Children?",
-        "authors": [
-          "Mary Higgins Clark"
-        ],
-        "publishedDate": "1992",
-        "pageCount": 232,
-        "categories": [
-          "FICTION"
-        ]
-      }
-    },
-    {
-      "id": "kjb1P1fJnfcC",
-      "volumeInfo": {
-        "title": "4.50 from Paddington",
-        "authors": [
-          "Agatha Christie"
-        ],
-        "publishedDate": "1987",
-        "pageCount": 228,
-        "categories": [
-          "Fiction"
-        ],
-        "averageRating": 4,
-        "ratingsCount": 8
-      }
-    },
-    {
-      "id": "dXccl8vD4LoC",
-      "volumeInfo": {
-        "title": "The Narrows",
-        "authors": [
-          "Michael Connelly"
-        ],
-        "publishedDate": "2005-03",
-        "pageCount": 462,
-        "categories": [
-          "Fiction"
-        ],
-        "averageRating": 3.5,
-        "ratingsCount": 7
-      }
-    },
-    {
-      "id": "J8k2csBT-80C",
-      "volumeInfo": {
-        "title": "A Case of Need",
-        "authors": [
-          "Michael Crichton",
-          "Jeffrey Hudson"
-        ],
-        "publishedDate": "1969",
-        "pageCount": 420,
-        "categories": [
-          "Fiction"
-        ],
-        "averageRating": 3.5,
-        "ratingsCount": 9
-      }
-    },
-    {
-      "id": "OwzXHyR1W-AC",
-      "volumeInfo": {
-        "title": "Crime and Punishment",
-        "authors": [
-          "Fyodor Dostoyevsky"
-        ],
-        "publishedDate": "1953",
-        "pageCount": 428,
-        "categories": [
-          "Murder"
-        ]
-      }
-    },
-    {
-      "id": "s5ulrjc71nIC",
-      "volumeInfo": {
-        "title": "The Surgeon",
-        "authors": [
-          "Tess Gerritsen"
-        ],
-        "publishedDate": "2001",
-        "pageCount": 530,
-        "categories": [
-          "Fiction"
-        ]
-      }
-    },
-    {
-      "id": "R6snAQAAMAAJ",
-      "volumeInfo": {
-        "title": "Murder on the Orient Express",
-        "authors": [
-          "Agatha Christie"
-        ],
-        "publishedDate": "1968",
-        "pageCount": 264,
-        "categories": [
-          "Detective and mystery stories"
-        ]
-      }
-    },
-    {
-      "id": "b8lyy_gQZTkC",
-      "volumeInfo": {
-        "title": "Every Dead Thing",
-        "authors": [
-          "John Connolly"
-        ],
-        "publishedDate": "2009-01-27",
-        "pageCount": 484,
-        "categories": [
-          "Fiction"
-        ]
-      }
-    },
-    {
-      "id": "SCHqme8AluYC",
-      "volumeInfo": {
-        "title": "The Invisible Man",
-        "authors": [
-          "Len Jenkin",
-          "Herbert George Wells"
-        ],
-        "publishedDate": "2000",
-        "pageCount": 78,
-        "categories": [
-          "Drama"
-        ]
-      }
-    },
-    {
-      "id": "T8i2CYntp6UC",
-      "volumeInfo": {
-        "title": "Two for the Dough",
-        "authors": [
-          "Janet Evanovich"
-        ],
-        "publishedDate": "1996",
-        "pageCount": 342,
-        "categories": [
-          "Fiction"
-        ],
-        "averageRating": 4,
-        "ratingsCount": 4
-      }
-    },
-    {
-      "id": "av8SBXdrG7YC",
-      "volumeInfo": {
-        "title": "Hannibal",
-        "authors": [
-          "Thomas Harris"
-        ],
-        "publishedDate": "2000",
-        "pageCount": 580,
-        "categories": [
-          "Dangerously mentally ill"
-        ],
         "averageRating": 4.5,
-        "ratingsCount": 2
+        "ratingsCount": 64,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.3.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=w7FfrQxhnxEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=w7FfrQxhnxEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=w7FfrQxhnxEC&printsec=frontcover&dq=subject:Fantasy&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=w7FfrQxhnxEC&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Fablehaven.html?hl=&id=w7FfrQxhnxEC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=w7FfrQxhnxEC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
       }
     },
     {
-      "id": "KProIPug-OsC",
+      "kind": "books#volume",
+      "id": "vToaYGUhFr8C",
+      "etag": "g4ulCLxQhDY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vToaYGUhFr8C",
       "volumeInfo": {
-        "title": "Ricochet",
+        "title": "Graceling",
         "authors": [
-          "Sandra Brown"
+          "Kristin Cashore"
         ],
-        "publishedDate": "2006",
-        "pageCount": 401,
-        "categories": [
-          "Authors, American"
-        ]
-      }
-    },
-    {
-      "id": "HuWP4w41tOEC",
-      "volumeInfo": {
-        "title": "Brother Odd",
-        "authors": [
-          "Dean Ray Koontz"
-        ],
-        "publishedDate": "2007",
-        "pageCount": 466,
-        "categories": [
-          "Abandoned children"
-        ],
-        "averageRating": 4.5,
-        "ratingsCount": 4
-      }
-    },
-    {
-      "id": "FUe7l6FoiVIC",
-      "volumeInfo": {
-        "title": "Muscle Memory",
-        "authors": [
-          "William G. Tapply"
-        ],
-        "publishedDate": "2003-04-14",
-        "pageCount": 308,
-        "categories": [
-          "Fiction"
-        ]
-      }
-    },
-    {
-      "id": "q_Bb4SnE2i0C",
-      "volumeInfo": {
-        "title": "The Sherwood Ring",
-        "authors": [
-          "Elizabeth Marie Pope"
-        ],
-        "publishedDate": "2001",
-        "pageCount": 276,
-        "categories": [
-          "Juvenile Fiction"
-        ],
-        "averageRating": 5,
-        "ratingsCount": 1
-      }
-    },
-    {
-      "id": "9iXsIAND7KQC",
-      "volumeInfo": {
-        "title": "The House at Riverton",
-        "authors": [
-          "Kate Morton"
-        ],
-        "publishedDate": "2009-03-03",
-        "pageCount": 496,
-        "categories": [
-          "Fiction"
-        ],
-        "averageRating": 3,
-        "ratingsCount": 1
-      }
-    },
-    {
-      "id": "5XDdP-5YxUsC",
-      "volumeInfo": {
-        "title": "Nine Nights",
-        "authors": [
-          "Bernardo Carvalho"
-        ],
+        "publisher": "Houghton Mifflin Harcourt",
         "publishedDate": "2008",
-        "pageCount": 226,
-        "categories": [
-          "Americans"
-        ]
-      }
-    },
-    {
-      "id": "FoyhSrj6RFsC",
-      "volumeInfo": {
-        "title": "The Revenge of the Wizard's Ghost",
-        "authors": [
-          "John Bellairs"
+        "description": "Discover the Graceling Realm in this unforgettable, award-winning novel from bestselling author Kristin Cashore A New York Times bestseller ALA Best Book for Young Adults Mythopoeic Fantasy Award for Children's Literature Winner Publishers Weekly, School Library Journal, Booklist, and BCCB Best Book of the Year \"Rageful, exhilarating, wistful in turns\" (The New York Times Book Review) with \"a knee weakening romance\" (LA Times). Graceling is a thrilling, action-packed fantasy adventure that will resonate deeply with anyone trying to find their way in the world. Graceling tells the story of the vulnerable-yet-strong Katsa, who is smart and beautiful and lives in the Seven Kingdoms where selected people are born with a Grace, a special talent that can be anything at all. Katsa's Grace is killing. As the king's niece, she is forced to use her extreme skills as his brutal enforcer. Until the day she meets Prince Po, who is Graced with combat skills, and Katsa's life begins to change. She never expects to become Po's friend. She never expects to learn a new truth about her own Grace--or about a terrible secret that lies hidden far away . . . a secret that could destroy all seven kingdoms with words alone. And don't miss the sequel Fire and companion Bitterblue, both award-winning, New York Times bestsellers, and full of Kristin Cashore's elegant, evocative prose and unforgettable characters.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "015206396X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780152063962"
+          }
         ],
-        "publishedDate": "1997",
-        "pageCount": 164,
-        "categories": [
-          "Ghosts"
-        ]
-      }
-    },
-    {
-      "id": "IYZRU3i0m-QC",
-      "volumeInfo": {
-        "title": "The Rule of Four",
-        "authors": [
-          "Ian Caldwell",
-          "Dustin Thomason"
-        ],
-        "publishedDate": "2005",
-        "pageCount": 626,
-        "categories": [
-          "Fiction"
-        ]
-      }
-    },
-    {
-      "id": "SPSn4HdxigkC",
-      "volumeInfo": {
-        "title": "The Redbreast",
-        "authors": [
-          "Jo Nesbo"
-        ],
-        "publishedDate": "2006",
-        "pageCount": 532,
-        "categories": [
-          "Fiction"
-        ]
-      }
-    },
-    {
-      "id": "vwt6of7puqwC",
-      "volumeInfo": {
-        "title": "Riverboat Ruse",
-        "authors": [
-          "Carolyn Keene"
-        ],
-        "publishedDate": "2005-05",
-        "pageCount": 166,
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 492,
+        "printType": "BOOK",
         "categories": [
           "Juvenile Fiction"
-        ]
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 48,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.6.5.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vToaYGUhFr8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vToaYGUhFr8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=vToaYGUhFr8C&printsec=frontcover&dq=subject:Fantasy&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=vToaYGUhFr8C&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Graceling.html?hl=&id=vToaYGUhFr8C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Graceling-sample-pdf.acsm?id=vToaYGUhFr8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vToaYGUhFr8C&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
       }
     },
     {
-      "id": "fVXhWW7ZRkwC",
+      "kind": "books#volume",
+      "id": "i2MCAAAAYAAJ",
+      "etag": "XzZpqA3cCaU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/i2MCAAAAYAAJ",
       "volumeInfo": {
-        "title": "Contest",
+        "title": "Through the Looking Glass",
+        "subtitle": "And what Alice Found There",
         "authors": [
-          "Matthew Reilly"
+          "Lewis Carroll"
         ],
-        "publishedDate": "2005-12-27",
-        "pageCount": 452,
+        "publishedDate": "1897",
+        "description": "In this sequel to Alice in Wonderland, Alice climbs through a mirror in her room and enters a world similar to a chess board where she experiences many curious adventures with its fantastic inhabitants.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "NYPL:33433082531603"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 232,
+        "printType": "BOOK",
+        "categories": [
+          "Adventure and adventurers"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.10.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=i2MCAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=i2MCAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=i2MCAAAAYAAJ&printsec=frontcover&dq=subject:Fantasy&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=i2MCAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=i2MCAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=i2MCAAAAYAAJ&rdid=book-i2MCAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/Through_the_Looking_Glass.epub?id=i2MCAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/Through_the_Looking_Glass.pdf?id=i2MCAAAAYAAJ&hl=&output=pdf&sig=ACfU3U1ruQH1kMElDbiRPH7776rUzJQcvA&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=i2MCAAAAYAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "tuspQELrwhIC",
+      "etag": "BplXtfdqzSI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/tuspQELrwhIC",
+      "volumeInfo": {
+        "title": "The Great Hunt",
+        "subtitle": "Book Two of 'The Wheel of Time'",
+        "authors": [
+          "Robert Jordan"
+        ],
+        "publisher": "Macmillan",
+        "publishedDate": "1991-10-15",
+        "description": "The Wheel of Time turns and Ages come and pass. What was, what will be, and what is, may yet fall under the Shadow. For centuries, gleemen have told of The Great Hunt of the Horn. Now the Horn itself is found: the Horn of Valere long thought only legend, the Horn which will raise the dead heroes of the ages. And it is stolen. THE WHEEL OF TIME Book One: The Eye of the World Book Two: The Great Hunt Book Three: The Dragon Reborn Book Four: The Shadow Rising Book Five: The Fires of Heaven Book Six: Lord of Chaos Book Seven: A Crown of Swords Book Eight: The Path of Daggers Book Nine: Winter's Heart Book Ten: Crossroads of Twilight",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780812517729"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0812517725"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 743,
+        "printType": "BOOK",
         "categories": [
           "Fiction"
         ],
         "averageRating": 4.5,
-        "ratingsCount": 3
+        "ratingsCount": 44,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.7.5.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=tuspQELrwhIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=tuspQELrwhIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=tuspQELrwhIC&printsec=frontcover&dq=subject:Fantasy&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=tuspQELrwhIC&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Great_Hunt.html?hl=&id=tuspQELrwhIC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Great_Hunt-sample-epub.acsm?id=tuspQELrwhIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=tuspQELrwhIC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
       }
     },
     {
-      "id": "pw4JuAEACAAJ",
+      "kind": "books#volume",
+      "id": "ouBNBAAAQBAJ",
+      "etag": "j+WUJZ9zR8o",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ouBNBAAAQBAJ",
       "volumeInfo": {
-        "title": "Crime and Punishment",
+        "title": "Shadow and Bone",
         "authors": [
-          "Fedor Mikhailovich Dostoevskii"
+          "Leigh Bardugo"
         ],
-        "publishedDate": "1968",
-        "pageCount": 434,
+        "publisher": "Macmillan",
+        "publishedDate": "2013-05-07",
+        "description": "Orphaned by the Border Wars, Alina Starkov is taken to become the protegâe of the mysterious Darkling, who trains her to join the magical elite in the belief that she is the Sun Summoner, who can destroy the monsters of the Fold.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781250027436"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1250027438"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 417,
+        "printType": "BOOK",
         "categories": [
-          "Murder"
-        ]
+          "Juvenile Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ouBNBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ouBNBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=ouBNBAAAQBAJ&printsec=frontcover&dq=subject:Fantasy&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=ouBNBAAAQBAJ&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Shadow_and_Bone.html?hl=&id=ouBNBAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ouBNBAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
       }
     },
     {
-      "id": "Yg4mDwAAQBAJ",
+      "kind": "books#volume",
+      "id": "poq0maYov4MC",
+      "etag": "ntF40ZFi1OA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/poq0maYov4MC",
       "volumeInfo": {
-        "title": "True Evil",
+        "title": "Keeper of the Lost Cities",
         "authors": [
-          "Greg Iles"
+          "Shannon Messenger"
         ],
-        "publishedDate": "2007-09-25",
-        "pageCount": 672,
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2012-10-02",
+        "description": "At age 12, Sophie learns that the remarkable abilities that have always caused her to stand out identify her as an elf. After being brought to Eternalia to hone her skills, she discovers that she has secrets buried in her memory for which some would kill.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781442445932"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1442445939"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 496,
+        "printType": "BOOK",
         "categories": [
-          "Fiction"
-        ]
+          "Juvenile Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 12,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.11.4.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=poq0maYov4MC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=poq0maYov4MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=poq0maYov4MC&printsec=frontcover&dq=subject:Fantasy&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=poq0maYov4MC&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Keeper_of_the_Lost_Cities.html?hl=&id=poq0maYov4MC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=poq0maYov4MC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
       }
     },
     {
-      "id": "jwDVVUxz7L4C",
+      "kind": "books#volume",
+      "id": "9YEOAAAAIAAJ",
+      "etag": "zMbAahj6wKE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9YEOAAAAIAAJ",
       "volumeInfo": {
-        "title": "Well-schooled in Murder",
+        "title": "Peter and Wendy",
         "authors": [
-          "Elizabeth George"
+          "James Matthew Barrie"
         ],
-        "publishedDate": "1991",
-        "pageCount": 442,
+        "publishedDate": "1911",
+        "description": "The adventures of Peter Pan, the boy who would not grow up.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "STANFORD:36105036716194"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 330,
+        "printType": "BOOK",
         "categories": [
-          "Detective and mystery stories"
-        ]
+          "Children"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 13,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "9.8.10.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=9YEOAAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=9YEOAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=9YEOAAAAIAAJ&printsec=frontcover&dq=subject:Fantasy&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=9YEOAAAAIAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=9YEOAAAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=9YEOAAAAIAAJ&rdid=book-9YEOAAAAIAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/Peter_and_Wendy.epub?id=9YEOAAAAIAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/Peter_and_Wendy.pdf?id=9YEOAAAAIAAJ&hl=&output=pdf&sig=ACfU3U1rjRXT3EWznBPc_qHIOnymcdhufg&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=9YEOAAAAIAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
       }
     },
     {
-      "id": "Mt90K-0Jty4C",
+      "kind": "books#volume",
+      "id": "-RfzDkklkmkC",
+      "etag": "gvGrq1cZhtQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-RfzDkklkmkC",
       "volumeInfo": {
-        "title": "To the Nines",
+        "title": "Crossroads of Twilight",
+        "subtitle": "Book Ten of 'The Wheel of Time'",
         "authors": [
-          "Janet Evanovich"
+          "Robert Jordan"
         ],
-        "publishedDate": "2004-06-14",
-        "pageCount": 360,
+        "publisher": "Macmillan",
+        "publishedDate": "2003-01-07",
+        "description": "Sequel to Winter's heart.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0312864590"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780312864590"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 724,
+        "printType": "BOOK",
         "categories": [
           "Fiction"
         ],
         "averageRating": 4,
-        "ratingsCount": 16
+        "ratingsCount": 36,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "4.5.3.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=-RfzDkklkmkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=-RfzDkklkmkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=-RfzDkklkmkC&printsec=frontcover&dq=subject:Fantasy&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=-RfzDkklkmkC&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Crossroads_of_Twilight.html?hl=&id=-RfzDkklkmkC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-RfzDkklkmkC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "1FrJqcRILaoC",
+      "etag": "uowH1FKfWUk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1FrJqcRILaoC",
+      "volumeInfo": {
+        "title": "Ficciones. C Edited and with an Introduction by Anthony Kerrigan",
+        "authors": [
+          "Jorge Luis Borges"
+        ],
+        "publisher": "Grove Press",
+        "publishedDate": "1962",
+        "description": "Seventeen short stories.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0802130305"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780802130303"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 184,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 20,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.6.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=1FrJqcRILaoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=1FrJqcRILaoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=1FrJqcRILaoC&printsec=frontcover&dq=subject:Fantasy&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=1FrJqcRILaoC&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Ficciones_C_Edited_and_with_an_Introduct.html?hl=&id=1FrJqcRILaoC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Ficciones_C_Edited_and_with_an_Introduct-sample-epub.acsm?id=1FrJqcRILaoC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Ficciones_C_Edited_and_with_an_Introduct-sample-pdf.acsm?id=1FrJqcRILaoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=1FrJqcRILaoC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "PKnI7BGANMIC",
+      "etag": "52AoCzysE9k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/PKnI7BGANMIC",
+      "volumeInfo": {
+        "title": "The Book of Three",
+        "authors": [
+          "Lloyd Alexander"
+        ],
+        "publisher": "Macmillan",
+        "publishedDate": "2006-05-16",
+        "description": "The fantasy adventures of a young pig-keeper who wants to become a hero.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0805080481"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780805080483"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 230,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 7,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.10.5.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=PKnI7BGANMIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=PKnI7BGANMIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=PKnI7BGANMIC&printsec=frontcover&dq=subject:Fantasy&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=PKnI7BGANMIC&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Book_of_Three.html?hl=&id=PKnI7BGANMIC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=PKnI7BGANMIC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
       }
     }
   ]
