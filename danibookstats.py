@@ -74,13 +74,13 @@ for g in genres:
         for b in dict(r.json())['items']:
             # add book to list
             books.append((b['id'],
-                          b['volumeInfo']['title'].replace('\"', '\'') if 'title' in b['volumeInfo'] else 'Unknown',
-                          ", ".join(b['volumeInfo']['authors']) if 'authors' in b['volumeInfo'] else 'Unknown',
-                          b['volumeInfo']['publisher'] if 'publisher' in b['volumeInfo'] else 'Unknown',
-                          b['volumeInfo']['publishedDate'] if 'publishedDate' in b['volumeInfo'] else 'Unknown',
-                          b['volumeInfo']['pageCount'] if 'pageCount' in b['volumeInfo'] else 0,
-                          float(b['volumeInfo']['averageRating'] if 'averageRating' in b['volumeInfo'] else 0),
-                          b['volumeInfo']['ratingsCount'] if 'ratingsCount' in b['volumeInfo'] else 0,
+                          b['volumeInfo']['title'].replace('\"', '\'') if 'title' in b['volumeInfo'] else None,
+                          ", ".join(b['volumeInfo']['authors']) if 'authors' in b['volumeInfo'] else None,
+                          b['volumeInfo']['publisher'] if 'publisher' in b['volumeInfo'] else None,
+                          b['volumeInfo']['publishedDate'] if 'publishedDate' in b['volumeInfo'] else None,
+                          b['volumeInfo']['pageCount'] if 'pageCount' in b['volumeInfo'] else None,
+                          float(b['volumeInfo']['averageRating']) if 'averageRating' in b['volumeInfo'] else None,
+                          b['volumeInfo']['ratingsCount'] if 'ratingsCount' in b['volumeInfo'] else None,
                           g))
 
     # insert books into database
