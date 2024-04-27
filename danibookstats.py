@@ -44,10 +44,6 @@ def get_num_queries(subject):
 # name of table to store books
 table_name = f'booksbygenre{datetime.now().year}_{datetime.now().month}_{datetime.now().day}_{datetime.now().hour}_{datetime.now().minute}_{datetime.now().second}'
 
-# write table name to file
-with open('table_names.txt', 'a') as f:
-    f.write(f'{table_name}\n')
-
 # create table if it doesn't exist
 cursor.execute(f'CREATE TABLE IF NOT EXISTS {table_name}(id CHAR(12) unique, title CHAR(255), authors CHAR(255), publisher CHAR(64), publishedDate DATE, pageCount INT, averageRating DECIMAL(2,1), ratingsCount INT, genre CHAR(32))')
 

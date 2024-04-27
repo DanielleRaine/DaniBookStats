@@ -23,7 +23,3 @@ for table in tables:
 
 # close the connection
 connection.close()
-
-# clear table_names.txt
-with open('table_names.txt', 'w') as f:
-    f.write('')

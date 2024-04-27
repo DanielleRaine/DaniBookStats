@@ -1,4 +1,6 @@
 .env
 .venv
-table_names.txt
 .Rproj.user
+.Rhistory
+.RData
+.Rhistory
