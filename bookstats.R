@@ -31,7 +31,9 @@ con <- dbConnect(
 )
 
 # retrieve data from table
-bookdata <- dbGetQuery(con, "SELECT * FROM booksbygenre2024_4_27_12_20_27")
+bookdata <- dbGetQuery(con, "SELECT * FROM booksbygenre2024_5_3_15_0_3")
+
+#View(bookdata)
 
 # disconnect
 dbDisconnect(con)
@@ -48,11 +50,31 @@ ggplot(genre_count, aes(x=genre, y=count)) +
 bookdata <- bookdata %>%
   mutate(num_authors = sapply(strsplit(ifelse(is.na(authors), "", authors), ", "), length))
 
-# calculate summary stats for num authors associated with genre
-num_author_summary_stats <- bookdata %>%
-  filter(num_authors != 0) %>%
+# calculate summary stats for number of authors  
+author_summary_stats <- bookdata %>%
   group_by(genre) %>%
-  summarise(mean_authors = mean(num_authors, na.rm = TRUE),
-            sd_authors = sd(num_authors, na.rm = TRUE))
+  summarise(mean_authors = mean(num_authors),
+            sd_authors = sd(num_authors),
+  )
 
-dnorm(mean = num_author_summary_stats[1,2], sd = num_author_summary_stats[1,3])
+print(author_summary_stats)
+
+# Group the data by genre
+bookdata_grouped <- bookdata %>%
+  group_by(genre)
+
+# create boxplots
+ggplot(bookdata_grouped, aes(x = genre, y = num_authors)) +
+  geom_boxplot(outlier.shape = "circle", outlier.alpha = 0.25, outlier.size = 2, outlier.color = "purple") +
+  geom_jitter(width = 0.25, height = 0.25, alpha = 0.5) +
+  labs(title = "Boxplot Comparison of Number of Authors per Book by Genre",
+       x = "Genre",
+       y = "Number of Authors")
+
+# create density curves
+ggplot(bookdata_grouped, aes(x = num_authors, fill = genre)) +
+  geom_density(alpha = 0.2) +
+  labs(title = "Density Plot of Number of Authors per Book by Genre",
+       x = "Number of Authors",
+       y = "Density"
+  )
