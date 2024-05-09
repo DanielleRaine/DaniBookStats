@@ -6,7 +6,6 @@ installed.packages("ggplot2")
 install.packages("dplyr")
 install.packages("crayon")
 
-
 # load packages
 library(dotenv)
 library(RMariaDB)
@@ -29,10 +28,46 @@ con <- dbConnect(
 )
 
 # retrieve data from table
-bookdata <- dbGetQuery(con, "SELECT * FROM booksbygenre2024_5_8_21_38_18")
-
+bookdata <- dbGetQuery(con, "SELECT * FROM booksbygenre2024_5_3_15_0_3")
 # disconnect
 dbDisconnect(con)
+
+
+# add number of authors to each entry
+bookdata <- bookdata %>%
+  mutate(num_authors = sapply(strsplit(ifelse(is.na(authors), "", authors), ", "), length))
+
+# Group the data by genre, filtered removing null values
+bookdata_filtered <- bookdata %>%
+  group_by(genre) %>%
+  filter(!is.na(pageCount)) %>%
+  filter(pageCount != 0)
+
+View(bookdata_filtered)
+
+# create a plot of box plot comparison showing page count for each genre
+ggplot(bookdata_filtered, aes(x = genre, y = pageCount)) +
+  geom_boxplot(outlier.shape = "circle", alpha = 0.75, outlier.size = 1, outlier.colour = "blue") +
+  labs(title = "Box Plot Comparison of Page Count per Book by Genre",
+       x = "Genre",
+       y = "Page Count")
+
+# LEARNING STUFF
+
+# get the indices of book titles greater than 20 characters in length
+indices_of_titles <- which(nchar(bookdata$title) > 20)
+# you can do this I guess and it works real well (print the items specified by indices of numeric vector)
+print(bookdata$title[indices_of_titles])
+
+# you can put a column of items into a vector!
+c(bookdata$id)
+# frequency table!
+publisher_frequency <- table(c(bookdata$publisher))
+# access the table like this probably!
+print(publisher_frequency["Cambridge University Press"])
+
+common_publisher <- which(publisher_frequency > 10)
+print(publisher_frequency[common_publisher])
 
 # count occurrences of each genre and convert to frame
 genre_count <- as.data.frame(table(c(bookdata$genre)))
