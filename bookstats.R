@@ -3,7 +3,6 @@ install.packages("dotenv")
 install.packages("RMariaDB")
 install.packages("DBI")
 installed.packages("ggplot2")
-install.packages("stringr")
 install.packages("dplyr")
 install.packages("crayon")
 
@@ -13,7 +12,6 @@ library(dotenv)
 library(RMariaDB)
 library(DBI)
 library(ggplot2)
-library(stringr)
 library(dplyr)
 library(crayon)
 
@@ -31,9 +29,7 @@ con <- dbConnect(
 )
 
 # retrieve data from table
-bookdata <- dbGetQuery(con, "SELECT * FROM booksbygenre2024_5_3_15_0_3")
-
-#View(bookdata)
+bookdata <- dbGetQuery(con, "SELECT * FROM booksbygenre2024_5_8_21_38_18")
 
 # disconnect
 dbDisconnect(con)
@@ -41,9 +37,9 @@ dbDisconnect(con)
 # count occurrences of each genre and convert to frame
 genre_count <- as.data.frame(table(c(bookdata$genre)))
 # rename the columns
-names(genre_count) <- c("genre", "count")
+names(genre_count) <- c("Genre", "Count")
 # construct bar graph that shows count of each book by genre
-ggplot(genre_count, aes(x=genre, y=count)) +
+ggplot(genre_count, aes(x=Genre, y=Count)) +
   geom_bar(stat = "identity")
 
 # count the number if authors per entry using a pipe
@@ -57,6 +53,8 @@ author_summary_stats <- bookdata %>%
             sd_authors = sd(num_authors),
   )
 
+# change column named genre to Genre in author summary stats
+names(author_summary_stats)[names(author_summary_stats) == "genre"] <- 'Genre'
 print(author_summary_stats)
 
 # Group the data by genre
@@ -76,5 +74,4 @@ ggplot(bookdata_grouped, aes(x = num_authors, fill = genre)) +
   geom_density(alpha = 0.2) +
   labs(title = "Density Plot of Number of Authors per Book by Genre",
        x = "Number of Authors",
-       y = "Density"
-  )
+       y = "Density")
