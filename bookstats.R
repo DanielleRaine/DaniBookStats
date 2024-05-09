@@ -28,16 +28,16 @@ con <- dbConnect(
 )
 
 # retrieve data from table
-bookdata <- dbGetQuery(con, "SELECT * FROM booksbygenre2024_5_3_15_0_3")
+bookdata <- dbGetQuery(con, "SELECT * FROM booksbygenre2024_5_8_21_38_18")
 # disconnect
 dbDisconnect(con)
 
 
 # add number of authors to each entry
 bookdata <- bookdata %>%
-  mutate(num_authors = sapply(strsplit(ifelse(is.na(authors), "", authors), ", "), length))
+  mutate(numAuthors = sapply(strsplit(ifelse(is.na(authors), "", authors), ", "), length))
 
-# Group the data by genre, filtered removing null values
+# Group the data by genre, removing null values
 bookdata_filtered <- bookdata %>%
   group_by(genre) %>%
   filter(!is.na(pageCount)) %>%
@@ -51,6 +51,38 @@ ggplot(bookdata_filtered, aes(x = genre, y = pageCount)) +
   labs(title = "Box Plot Comparison of Page Count per Book by Genre",
        x = "Genre",
        y = "Page Count")
+
+# count length of each title and add it to each entry
+bookdata_filtered$titleLength <- nchar(bookdata_filtered$title)
+
+# linear regression time!!
+ggplot(bookdata_filtered, aes(x = titleLength, y = pageCount)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "Title Length vs Page Count Linear Model",
+       x = "Title Length",
+       y = "Page Count")  # Add labels
+
+ggplot(bookdata_filtered, aes(x = titleLength, y = pageCount)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  facet_wrap(~ genre, scales = "free") +
+  labs(title = "Title Length vs Page Count Linear Model by Genre",
+       x = "Title Length",
+       y = "Page Count")  # Add labels
+
+print(bookdata_filtered[bookdata_filtered[["titleLength"]] > 200, ] )
+# The Theory of Moral Sentiments; Or, An Essay Towards an Analysis of the Principles by which Men Naturally Judge Concerning the Conduct and Character, First of Their Neighbors, and Afterwards of Themselves
+summary(lm(pageCount ~ titleLength, data = bookdata_filtered))
+
+# Fit linear regression models for each genre and obtain summaries
+model_summaries <- by(bookdata_filtered, bookdata_filtered$genre, function(df) {
+  lm_model <- lm(pageCount ~ titleLength, data = df)
+  summary(lm_model)
+})
+
+# Print summaries for each genre
+print(model_summaries)
 
 # LEARNING STUFF
 
@@ -96,17 +128,18 @@ print(author_summary_stats)
 bookdata_grouped <- bookdata %>%
   group_by(genre)
 
-# create boxplots
-ggplot(bookdata_grouped, aes(x = genre, y = num_authors)) +
-  geom_boxplot(outlier.shape = "circle", outlier.alpha = 0.25, outlier.size = 2, outlier.color = "purple") +
-  geom_jitter(width = 0.25, height = 0.25, alpha = 0.5) +
-  labs(title = "Boxplot Comparison of Number of Authors per Book by Genre",
-       x = "Genre",
-       y = "Number of Authors")
-
 # create density curves
 ggplot(bookdata_grouped, aes(x = num_authors, fill = genre)) +
   geom_density(alpha = 0.2) +
   labs(title = "Density Plot of Number of Authors per Book by Genre",
        x = "Number of Authors",
        y = "Density")
+
+# create density curves
+ggplot(bookdata_grouped, aes(x = num_authors, fill = genre)) +
+  geom_density(alpha = 0.2) +
+  facet_wrap(~ genre, scales = "free") +  
+  labs(title = "Density Plot of Number of Authors per Book by Genre",
+       x = "Number of Authors",
+       y = "Density")
+
