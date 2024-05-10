@@ -28,7 +28,7 @@ con <- dbConnect(
 )
 
 # retrieve data from table
-bookdata <- dbGetQuery(con, "SELECT * FROM booksbygenre2024_5_8_21_38_18")
+bookdata <- dbGetQuery(con, "SELECT * FROM booksbygenre2024_5_3_15_0_3")
 # disconnect
 dbDisconnect(con)
 
@@ -61,18 +61,19 @@ ggplot(bookdata_filtered, aes(x = titleLength, y = pageCount)) +
   geom_smooth(method = "lm", se = FALSE) +
   labs(title = "Title Length vs Page Count Linear Model",
        x = "Title Length",
-       y = "Page Count")  # Add labels
+       y = "Page Count")
 
 ggplot(bookdata_filtered, aes(x = titleLength, y = pageCount)) +
-  geom_point() +
+  geom_point(size = 0.5) +
   geom_smooth(method = "lm", se = FALSE) +
   facet_wrap(~ genre, scales = "free") +
   labs(title = "Title Length vs Page Count Linear Model by Genre",
        x = "Title Length",
-       y = "Page Count")  # Add labels
+       y = "Page Count")
 
-print(bookdata_filtered[bookdata_filtered[["titleLength"]] > 200, ] )
-# The Theory of Moral Sentiments; Or, An Essay Towards an Analysis of the Principles by which Men Naturally Judge Concerning the Conduct and Character, First of Their Neighbors, and Afterwards of Themselves
+# print the entries that were weird
+print(bookdata_filtered[bookdata_filtered[["titleLength"]] > 150, ] )
+# summary of linear model
 summary(lm(pageCount ~ titleLength, data = bookdata_filtered))
 
 # Fit linear regression models for each genre and obtain summaries
@@ -84,22 +85,18 @@ model_summaries <- by(bookdata_filtered, bookdata_filtered$genre, function(df) {
 # Print summaries for each genre
 print(model_summaries)
 
-# LEARNING STUFF
+# get frequency of each publisher
+publisher_frequency <- as.data.frame(table(c(bookdata$publisher)))
+# rename columns
+names(publisher_frequency) <- c("Publisher", "Number of Books Published")
 
-# get the indices of book titles greater than 20 characters in length
-indices_of_titles <- which(nchar(bookdata$title) > 20)
-# you can do this I guess and it works real well (print the items specified by indices of numeric vector)
-print(bookdata$title[indices_of_titles])
+common_publishers <- publisher_frequency %>%
+  filter(`Number of Books Published` > 15)
 
-# you can put a column of items into a vector!
-c(bookdata$id)
-# frequency table!
-publisher_frequency <- table(c(bookdata$publisher))
-# access the table like this probably!
-print(publisher_frequency["Cambridge University Press"])
+ggplot(as.data.frame(common_publishers), aes(x=Publisher, y=`Number of Books Published`)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Number of Books Published by Publishers with > 15 Published Books")
 
-common_publisher <- which(publisher_frequency > 10)
-print(publisher_frequency[common_publisher])
 
 # count occurrences of each genre and convert to frame
 genre_count <- as.data.frame(table(c(bookdata$genre)))
@@ -107,17 +104,14 @@ genre_count <- as.data.frame(table(c(bookdata$genre)))
 names(genre_count) <- c("Genre", "Count")
 # construct bar graph that shows count of each book by genre
 ggplot(genre_count, aes(x=Genre, y=Count)) +
-  geom_bar(stat = "identity")
-
-# count the number if authors per entry using a pipe
-bookdata <- bookdata %>%
-  mutate(num_authors = sapply(strsplit(ifelse(is.na(authors), "", authors), ", "), length))
+  geom_bar(stat = "identity") +
+  labs(title = "Count of Books per Genre")
 
 # calculate summary stats for number of authors  
 author_summary_stats <- bookdata %>%
   group_by(genre) %>%
-  summarise(mean_authors = mean(num_authors),
-            sd_authors = sd(num_authors),
+  summarise(mean_authors = mean(numAuthors),
+            sd_authors = sd(numAuthors),
   )
 
 # change column named genre to Genre in author summary stats
@@ -129,14 +123,13 @@ bookdata_grouped <- bookdata %>%
   group_by(genre)
 
 # create density curves
-ggplot(bookdata_grouped, aes(x = num_authors, fill = genre)) +
+ggplot(bookdata_grouped, aes(x = numAuthors, fill = genre)) +
   geom_density(alpha = 0.2) +
   labs(title = "Density Plot of Number of Authors per Book by Genre",
        x = "Number of Authors",
        y = "Density")
 
-# create density curves
-ggplot(bookdata_grouped, aes(x = num_authors, fill = genre)) +
+ggplot(bookdata_grouped, aes(x = numAuthors, fill = genre)) +
   geom_density(alpha = 0.2) +
   facet_wrap(~ genre, scales = "free") +  
   labs(title = "Density Plot of Number of Authors per Book by Genre",

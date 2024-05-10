@@ -1,8 +1,3 @@
-# Author: Danielle Hassanieh
-# Created: 2024-03-26
-# Last Modified: 2024-04-19
-# Description: This script pulls in book data from the Google Books API and stores it in a MySQL database.
-
 import os
 import requests
 from math import ceil
